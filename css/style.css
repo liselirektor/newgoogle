@@ -85,7 +85,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .input-area {
   color: transparent;
-  flex: 100%;
+  flex: 90%;
   white-space: pre;
   font: 16px arial, sans-serif;
   line-height: 34px;
@@ -114,8 +114,27 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
-  width: 500px;
+  width: 480px;
+  border: none;
 }
+
+.voice {
+  float: right;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  outline: none;
+  display: flex;
+  flex: 0%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  }
+  .vhref {
+    outline: none;
+    display: flex;
+  }
+
 
 .googlesearch {
   margin: 11px 4px;
