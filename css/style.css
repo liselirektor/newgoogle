@@ -144,10 +144,24 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   cursor: pointer;
   user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
 }
 
 .buttons {
-  text-align: center;}
+  text-align: center;
+  border: 1px #f2f2f2 bold;
+  height: 36px;
+}
+
+.buttons a:hover {
+  text-align: center;
+  border: 1px #f2f2f2 bold;
+  height: 36px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
 
 .feelinglucky {
   padding: 0 16px;
@@ -156,6 +170,10 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   clear: both;
   cursor: pointer;
   user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
 }
 
 .footer {
